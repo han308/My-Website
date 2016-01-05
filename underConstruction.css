@@ -1,0 +1,21 @@
+/**/
+.jumbotron{
+    background-image: url("pictures/BMW.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+.jumbotron .container{
+    position: relative;
+    top: 35%;
+    z-index: 4;
+    text-align: center;
+    color: #FFFFFF;
+}
+.jumbotron .container h1{
+    padding-bottom: 15px;
+    display: inline-block;
+}

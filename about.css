@@ -1,0 +1,175 @@
+/**/
+.jumbotron{
+    background-image:url('pictures/Hallstatt_darken.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    position: static;
+}
+/**/
+.jumbotron .container{
+    position: relative;
+    color: #FFFFFF;
+    top: 35%;
+    left: 10%;
+}
+/**/
+.jumbotron .container h1{
+	padding-bottom: 5px;
+    border-bottom: 1px solid #FFFFFF;
+    border-bottom-color: rgba(255,255,255,0.6);
+    display: inline;
+    font-style: italic;
+}
+/**/
+
+.sidebar{
+    margin-left: 15%;
+    position: absolute;
+    /*border: 2px solid #000000;*/
+    display: block;
+    z-index: 4;
+}
+.sidebar .container{
+    position: relative;
+    width: 180px;
+    min-width: 180px;
+    text-align: center;
+}
+#Xu-Pic{
+    position: relative;
+    margin-top: 15px;
+}
+.sidebar ul{
+    margin-top: 15px;
+    padding: 0px;
+    list-style-type: none;
+}
+.sidebar a {
+    width: 100%;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #5a5a5a;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/**/
+.sidebar a:hover:not(.active){
+    background-color: #cccccc;
+    color:white;
+}
+/**/
+.sidebar .active{
+    background-color: #4db8ff;
+    color:white;
+}
+
+
+/**/
+.intro {
+    position: relative;
+    
+}
+.intro .main_container{
+    min-width: 400px;
+}
+
+/**/
+.intro .main_container div > h1{
+    margin-top: 60px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #4db8ff;
+    line-height: 1em;
+    font-size: 30px;
+    display: block;
+}
+/**/
+.intro .about-me .main_container h4{
+    color: #666666;
+    padding-top: 20px;
+    display: block;
+    line-height: 1.5em;
+    font-family: "Open-Sans",sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+/*all h6 elements inside .about-me*/
+.intro .about-me h6{
+    color: #666666;
+    display: block;
+    line-height: 1.5em;
+    font-family: "Open-Sans",sans-serif;
+    font-size: 14px;
+}
+
+/*all p elements inside #introduction and #project*/
+#introduction p{
+    color: #666666;
+    display: block;
+    padding-top: 20px;
+    line-height: 1.5em;
+    font-family: "Open-Sans",sans-serif;
+    font-size: 18px;
+}
+
+/**/
+.intro .about-me .main_container h5{
+    color: #666666;
+    padding-top: 20px;
+    display: block;
+    line-height: 1.5em;
+    font-family: "Open-Sans",sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+/*all p elements inside #education, #work, #projects*/
+#education p{
+    color: #666666;
+    display: block;
+    line-height: 1.5em;
+    font-family: "Open-Sans",sans-serif;
+    font-size: 15px;
+}
+#work p{
+    color: #666666;
+    display: block;
+    line-height: 1.5em;
+    font-family: "Open-Sans",sans-serif;
+    font-size: 15px;
+}
+#projects p{
+    color: #666666;
+    display: block;
+    padding-top: 30px;
+    line-height: 1.5em;
+    font-family: "Open-Sans",sans-serif;
+    font-size: 15px;
+}
+/*all li elements inside #education and #work*/
+#education li{
+    display: list-item;
+    line-height: 1.5em;
+    font-family: "Open-Sans",sans-serif;
+    font-size: 15px;
+    color: #666666;
+}
+#work li{
+    display: list-item;
+    line-height: 1.5em;
+    font-family: "Open-Sans",sans-serif;
+    font-size: 15px;
+    color: #666666;
+}
+#projects .btn{
+    outline: 0;
+}
+#projects a{
+    color: #ffffff;
+    outline: 0;
+}

@@ -1,0 +1,86 @@
+html, body
+{
+    height: 100vh;
+}
+.jumbotron{
+  background: transparent url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/feature-gradient-transparent.png') center center no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 0px;
+}
+.jumbotron .container{
+  position: relative;
+  overflow: hidden;
+  border: 2.5px solid #000000;
+}
+.jumbotron  ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+  display: block;
+}
+.jumbotron ul li{
+  position: relative;
+  float: left;
+  text-align: center;
+  width: 70vw;
+  height: auto;
+  min-height: 530px;
+  min-width: 800px;
+  margin-left: -2px;
+}
+.jumbotron img{
+  width: 100%;
+  height: auto;
+  min-width: 800px;
+  min-height: 530px;
+  margin-left: -25px;
+}
+.jumbotron p{
+  position:absolute;
+  top: 80%;
+  z-index: 999;
+  font-family: Tahoma;
+  display: block;
+  padding: 4% 2.5%;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  font-size: 16px;
+  opacity: 0.8;
+  margin-left: -12px;
+}
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 2.5%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+  outline: 0;
+}
+
+a.control_prev:hover, a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+  left: 0;
+}
+
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="bootstrap-3.3.6-dist/bootstrap-3.3.6-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="footer.css">
+    <script src="jquery/jquery-1.11.3.js"></script>
+    <script src = "jumbotronFade.js"></script>
+    <script src="dropdown_menu.js"></script>
+    <title>Xu Han - Software Engineer</title>
+    
+</head>
+
+<body>
+    <div class="nav">
+        <div class="container">
+            <div class = "row">
+                <ul>
+                    <li><a href="design2.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="about.html" id="dropdown-toggle" class = "active">About Me</a>
+                        <ul class="dropdown-menu">
+                          <li><a href="about.html#introduction">Introduction</a></li>
+                          <li><a href="about.html#education">Education</a></li>
+                          <li><a href="about.html#work">Work</a></li>
+                          <li><a href="about.html#projects">Projects</a></li>
+                      </ul>
+                  </li>
+                    <li><a href="travels.html">Travels</a></li>
+                    <li><a href="underConstructionC.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron">
+        <div class="container">
+            <h1>About Me</h1>
+        </div>
+    </div>
+    <div class = "sidebar">
+        <div id = "nav_sidebar" class = "container">
+            <div id = "Xu-Pic">
+                <img src="pictures/Me.jpg" class="img-circle" alt="Xu Han" width="100%" height="100%">
+                <ul>
+                    <li><a class="active" href="#introduction">Introduction</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class = "intro">
+        <div class = "container">
+            <div class = "about-me">
+                <div class="col-xs-8 col-xs-offset-2 main_container">
+                    <div class = "introduction row" id = "introduction">
+                        <h1>Introduction</h1>
+                        <p>
+                            Hello there! I'm Xu, mostly known as Jack. Welcome to my website. I am currently a sophomore (second year student) studying at Purdue University in West Lafayette. I am currently working as a software verification engineer at Delphi Verification Lab in Purdue Research Park. I have a strong ambition to be better. I love to perfect minor details that adds up to quality. Working in a multicultural setting is something I excel at. Having grown up in Toronto, I am no stranger to the diverse working environment in the real world.
+                        </p>
+                    </div>
+                    <div class = "education row" id = "education">
+                        <h1>Education</h1>
+                        <div class "container">
+                            <div class = "row">
+                                <div class="col-xs-4">
+                                    <h4>Purdue University</h4>
+                                    <h6>West Lafayette, Indiana</h6>
+                                    <h6>Aug 2014 - May 2018 (Expected)</h6>
+                                </div>
+                                <div class="col-xs-8">
+                                    <h5>Bachelor of Computer Science</h5>
+                                    <p>
+                                        Relevant Coursework:
+                                        <ul>
+                                            <li>CS 18000 - Programming in Java</li>
+                                            <li>CS 24000 - Programming in C</li>
+                                            <li>CS 25000 - Computer Architecture</li>
+                                            <li>CS 25100 - Data Structures and Algorithms</li>
+                                            <li>CS 25200 - Systems Programming</li>
+                                        </ul>
+                                    </p>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class "container">
+                            <div class = "row">
+                                <div class="col-xs-4">
+                                    <h4>James B Conant High School</h4>
+                                    <h6>Hoffman Estates, Illinois</h6>
+                                    <h6>Nov 2012 - Jun 2014</h6>
+                                </div>
+                                <div class="col-xs-8">
+                                    <h5>High School Diploma</h5>
+                                    <p>
+                                        I moved to this high school in the middle of my 11th grade (Junior year). I carried on my computer science course here from Canada. I learned Java in AP Computer Science A and created multiple applications and games on the NetBeans IDE.
+                                    </p>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "work row" id = "work">
+                        <h1>Work</h1>
+                        <div class "container">
+                            <div class = "row">
+                                <div class="col-xs-4">
+                                    <h4>Delphi E&S Verification Lab</h4>
+                                    <h6>West Lafayette, Indiana</h6>
+                                    <h6>Nov 2015 - Present</h6>
+                                </div>
+                                <div class="col-xs-8">
+                                    <h5>Software Verification Engineer</h5>
+                                    <p>
+                                        <ul>
+                                            <li>developed trouble-shooting techniques for solving software errors</li>
+                                            <li>read and update software error reports in the Mantis database</li>
+                                            <li>drove projects to completion when working alone</li>
+                                            <li>using C# to program, debug, and develop software for customer needs</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "projects row" id = "projects">
+                        <h1>Projects</h1>
+                        <div class "container">
+                            <div class = "row">
+                                <div class="col-xs-4">
+                                    <h4>(Java) League of Legends Link Up</h4>
+                                </div>
+                                <div class="col-xs-8">
+                                    <p>
+                                        From the famous lian lian kan game in China, I created a League of Legends version of the puzzle game. The objective of the game is to match all tiles to win. But be careful! Identical tiles can only be matched if they can be connected by three or less sets of lines.
+                                        <br><br><a class="btn btn-success" href = "linkuplol.html" role = "button">View More</a>
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class "container">
+                            <div class = "row">
+                                <div class="col-xs-4">
+                                    <h4>(Python) Technical Analysis Tool</h4>
+                                </div>
+                                <div class="col-xs-8">
+                                    <p>
+                                        Simple technical analysis tool in python able to plot candlestick charts, rsi graphs and other supporting data of different stocks.
+                                        <br><br><a class="btn btn-success" href = "techanalysistool.html" role = "button">View More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class "container">
+                            <div class = "row">
+                                <div class="col-xs-4">
+                                    <h4>(Java) Video Poker Machine</h4>
+                                </div>
+                                <div class="col-xs-8">
+                                    <p>
+                                        A video poker machine on the PC. Start off with 100 credits, bet your way to prosperity! If you have enough luck.
+                                        <br><br><a class="btn btn-success" href = "videopoker.html" role = "button">View More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "footer">
+        <div class = "container">
+            <footer>
+                <p>&#169 2015 Xu Han. All Right Reserved.</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

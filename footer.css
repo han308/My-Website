@@ -1,0 +1,14 @@
+/**/
+.footer{
+    height: 100px;
+    position:relative;
+    z-index: 4;
+}
+/**/
+.footer footer { 
+    display: block;
+    font-family: Times;
+    font-size: 14px;
+    text-align: center;
+    padding-top:40px;
+}
