@@ -7,6 +7,7 @@ html, body
   background-size: cover;
   padding-top: 60px;
   padding-bottom: 0px;
+  visibility: hidden;
 }
 .jumbotron .container{
   position: relative;

@@ -1,5 +1,5 @@
 $(window).load(function(){
-
+    $(".jumbotron").css("visibility", "visible");
     var slideCount = $('.jumbotron .container ul li img').length;
     var slideWidth = $('.jumbotron .container ul li img').width();
     var slideHeight = $('.jumbotron .container ul li').height();
