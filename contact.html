@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="bootstrap-3.3.6-dist/bootstrap-3.3.6-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="nav.css">
+    <script src="jquery/jquery-1.11.3.js"></script>
+    <script src = "jumbotronFade.js"></script>
+    <title>Xu Han - Software Engineer</title>
+    
+</head>
+
+<body>
+    <div class="nav">
+        <div class="container">
+            <div class = "row">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="travels.html">Travels</a></li>
+                    <li><a class = "active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class = "pad"></div>
+    <div class="col-xs-12" id = "section-contact">
+        <div class = "container">
+            <div id="contact-warning"></div>
+            <!-- // #contact-warning -->
+            <div id="contact-success">Your message was successfuly sent, thank you!</div>
+            <!-- // #contact-warning -->
+            <form name="contactForm" id="contactForm" method="post" action="includes/include.emailSender.php">
+                <fieldset>
+                    <label for="contactName">Name <span class="required">*</span></label>
+                    <input name="contactName" id="contactName" size="30" value="" type="text"/>
+                    <br/>
+                    <label for="contactEmail">Email <span class="required">*</span></label>
+                    <input name="contactEmail" id="contactEmail" size="30" value="" type="text"/>
+                    <br/>
+                    <label for="contactMessage">Message <span class="required">*</span></label>
+                    <textarea name="contactMessage" id="contactMessage" rows="6" cols="7"></textarea>
+                    <br/>
+                    <label for="contactCaptcha"><strong>3</strong> + <strong>11</strong> = <span class="required">*</span></label>
+                    <input name="contactCaptcha" id="contactCaptcha" size="30" value="" type="text"/>
+                    <input name="contactCaptchaAnswer" id="contactCaptchaAnswer" value="14" type="hidden"/>
+                    <br/>
+                    <button class="submit">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
