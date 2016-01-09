@@ -1,5 +1,5 @@
 /*navigation bar*/
-.nav{
+.navigation{
     height:60px;
     width:100%;
     background-color:white;
@@ -10,15 +10,15 @@
       border-bottom: 1px solid #ddd;
 }
 /**/
-.nav ul{
+.navigation ul{
     list-style-type: none;
 }
 /**/
-.nav li{
+.navigation li{
     display: inline;
 }
 /**/
-.nav a {
+.navigation a {
     padding: 14px 10px;
     color: #5a5a5a;
     font-size: 12px;
@@ -31,12 +31,12 @@
     outline: 0;
 }
 /**/
-.nav a:hover:not(.active){
+.navigation a:hover:not(.active){
     background-color: #cccccc;
     color:white;
 }
 /**/
-.nav .container .active{
+.navigation .container .active{
     background-color: #4db8ff;
     color:white;
 }
