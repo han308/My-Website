@@ -33,6 +33,9 @@
     z-index: 999;
     text-align: center;
 }
+.sidebar img{
+    margin-bottom: 10px;
+}
 .sidebar .navbar-collapse { padding: 0px; max-height: none;}
 .sidebar .navbar-nav { float: none; }
 .sidebar .navbar-collapse ul{
