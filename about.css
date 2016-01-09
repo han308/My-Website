@@ -218,6 +218,9 @@
         text-decoration: none;
         text-transform: capitalize;
     }
+    .intro .main_container div > h1{
+        margin-top: 120px;
+    }
     /*
     .sidebar .nav li img { left: 0px; width: 180px; height: 180px; }
     .side .nav > li a {height: 60px; text-align: center; font-weight: 600; color: #FFFFFF; }
