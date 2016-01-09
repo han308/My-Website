@@ -33,10 +33,12 @@
 /**/
 .navigation a:hover:not(.active){
     background-color: #cccccc;
+    text-decoration: none;
     color:white;
 }
 /**/
 .navigation .container .active{
     background-color: #4db8ff;
+    text-decoration: none;
     color:white;
 }
