@@ -1,7 +1,7 @@
 
 /**/
 .jumbotron{
-    background-image: url("pictures/Swiss_darken.gif");
+    background-image: url("pictures/Swiss_darken.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -27,5 +27,23 @@
     font-size: 18px;
 }
 @media (max-width: 767px) { 
-    
-} 
+    .jumbotron{
+    background-image: url("pictures/Swiss_darken_767h.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+@media (max-width: 1920px) { 
+ .jumbotron{
+    background-image: url("pictures/Swiss_darken.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}   
+ 
