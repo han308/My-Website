@@ -4,3 +4,11 @@
 .contacts li{
 	margin-top: 20px;
 }
+.contacts ul{
+	list-style-type: none;
+}
+@media (max-width: 1200px) { 
+	.contacts .container a{
+
+	}
+}
