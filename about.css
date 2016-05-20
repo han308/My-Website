@@ -30,7 +30,7 @@
     min-width: 100px;
     position: absolute;
     display: block;
-    z-index: 999;
+    z-index: 100;
     text-align: center;
 }
 .sidebar img{
