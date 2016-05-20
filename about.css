@@ -23,7 +23,9 @@
     display: inline;
     font-style: italic;
 }
-
+.dropdown-menu{
+    z-index:200;
+}
 .sidebar{
     margin-left: 5%;
     width: 10%;
@@ -176,7 +178,7 @@
         position: absolute;
         display: block;
         background-color: #f2f2f2;
-        z-index: 999;
+        z-index: 100;
     }
     .sidebar .navbar-collapse img{
         width: 180px;
