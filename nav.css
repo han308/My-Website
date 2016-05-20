@@ -1,13 +1,13 @@
 /*navigation bar*/
 .navigation{
-    height:60px;
+    height:80px;
     width:100%;
     background-color:white;
     position: fixed;
     text-align: center;
     display: block;
     z-index: 999;
-      border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
 }
 /**/
 .navigation ul{
@@ -19,9 +19,9 @@
 }
 /**/
 .navigation a {
-    padding: 14px 10px;
+    padding: 20px 14px;
     color: #5a5a5a;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     position: relative;
     display: inline-block;
