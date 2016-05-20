@@ -7,7 +7,7 @@ $(document).ready(function(){
                 var scrollYpos = $(document).scrollTop();
                 if (scrollYpos > sOffset - 60) {
                     $(".sidebar").css({
-                        'top': '61px',
+                        'top': '60px',
                         'position': 'fixed'
                     });
                 } else {
@@ -23,7 +23,7 @@ $(document).ready(function(){
                 var scrollYpos = $(document).scrollTop();
                 if (scrollYpos > sOffset - 60) {
                     $(".sidebar").css({
-                        'top': '61px',
+                        'top': '60px',
                         'position': 'fixed'
                     });
                 } else {

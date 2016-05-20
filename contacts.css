@@ -8,7 +8,11 @@
 	list-style-type: none;
 }
 @media (max-width: 1200px) { 
-	.contacts .container a{
-
+	#socialButton{
+		text-align: center;
+	}
+	#socialButton ul li{
+		display: inline;
+		margin: 10px;
 	}
 }
