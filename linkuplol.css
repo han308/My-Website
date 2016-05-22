@@ -1,5 +1,5 @@
 .block{
-  height: 60px;
+  height: 80px;
 }
 /* Carousel */
 .slider {
@@ -74,6 +74,7 @@
     color: #666666;
     display: block;
     line-height: 1.5em;
-    font-family: "Open-Sans",sans-serif;
+    font-family: "Jura", sans-serif;
     font-size: 16px;
+    font-weight: 500;
 }

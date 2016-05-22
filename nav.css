@@ -7,6 +7,7 @@
     text-align: center;
     display: block;
     z-index: 999;
+    font-family: "Jura", serif;
     border-bottom: 1px solid #ddd;
 }
 /**/
@@ -21,8 +22,8 @@
 .navigation a {
     padding: 20px 14px;
     color: #5a5a5a;
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: 600;
     position: relative;
     display: inline-block;
     text-transform: uppercase;

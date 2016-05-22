@@ -5,7 +5,7 @@ $(document).ready(function(){
             var sOffset = $(".sidebar").offset().top;
             $(window).scroll(function() {
                 var scrollYpos = $(document).scrollTop();
-                if (scrollYpos > sOffset - 60) {
+                if (scrollYpos > sOffset - 80) {
                     $(".sidebar").css({
                         'top': '80px',
                         'position': 'fixed'
@@ -21,7 +21,7 @@ $(document).ready(function(){
             var sOffset = $(".sidebar").offset().top;
             $(window).scroll(function() {
                 var scrollYpos = $(document).scrollTop();
-                if (scrollYpos > sOffset - 60) {
+                if (scrollYpos > sOffset - 80) {
                     $(".sidebar").css({
                         'top': '80px',
                         'position': 'fixed'
