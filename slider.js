@@ -19,21 +19,20 @@ $(window).load(function(){
         });
     };
 
-function moveRight() {
-    $('.jumbotron .container ul').animate({
-        left: -slideWidth
-    }, 500, function () {
-            $('.jumbotron .container ul li:first-child').appendTo('.jumbotron .container ul');
-            $('.jumbotron .container ul').css('left', '');
+    function moveRight() {
+        $('.jumbotron .container ul').animate({
+            left: -slideWidth
+        }, 500, function () {
+                $('.jumbotron .container ul li:first-child').appendTo('.jumbotron .container ul');
+                $('.jumbotron .container ul').css('left', '');
+        });
+    };
+
+    $('a.control_prev').click(function () {
+        moveLeft();
     });
-};
 
-$('a.control_prev').click(function () {
-    moveLeft();
-});
-
-$('a.control_next').click(function () {
-    moveRight();
-});
-
+    $('a.control_next').click(function () {
+        moveRight();
+    });
 });  
